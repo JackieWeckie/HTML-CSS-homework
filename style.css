@@ -1,0 +1,32 @@
+.hw5march {
+        background: #42868A;
+        padding: 40px 20px;
+        width: 35%;
+        margin: 50px auto;
+        border-radius: 20px;
+}
+
+.hw5march figure {
+        font-family: Segoe UI;
+        font-size: 72px;
+}
+
+.hw5march img {
+        width: 150px;
+        margin-bottom: -50px;
+        border-radius: 20px;
+}
+
+.hw5march span {
+        color: azure;
+        border-radius: 20px;
+        display: inline-block;
+        padding-right: 40px;
+        padding-bottom: 36px;
+}
+
+.hw5march span:hover {
+        cursor: pointer;
+        background-color: #1B3637;
+        padding: auto;
+}
