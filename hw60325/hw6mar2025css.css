@@ -1,0 +1,73 @@
+*{
+        background: rgb(110, 110, 110);
+}
+
+.task {
+        margin-left: 35%;
+        font-family: Segoe UI;
+}
+
+.task h1 {
+        font-size: 64px;
+}
+
+.task .ul-main {
+        margin-top: 200px;
+        font-size: 38px;
+        color:black;
+        list-style-type: upper-roman;
+        font-weight: bold;
+}
+
+.task .ul-main li {
+        margin-bottom: 20px;
+}
+
+.task .ul-two {
+        font-size: 30px;
+        list-style-type: decimal;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+.task .ul-three li {
+        font-size: 24px;
+        list-style-type: lower-alpha;
+}
+
+.task .ul-four {
+        font-size: 30px;
+        list-style-type: decimal;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+.task .ul-five {
+        font-size: 24px;
+        list-style-type: lower-alpha;
+}
+
+.task .ul-six {
+        font-size: 30px;
+        list-style-type: decimal;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+.task .ul-seven {
+        font-size: 30px;
+        list-style-type: decimal;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+.task .ul-eight {
+        font-size: 30px;
+        list-style-type: decimal;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+.task span {
+        color: #133653;
+}
