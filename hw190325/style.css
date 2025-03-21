@@ -1,0 +1,104 @@
+
+.loader {
+        width: 80vw;
+        margin: 50px auto;
+        height: 60vh;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.24);
+        padding: 20px;
+        display: flex;
+        gap: 10px;
+        display: flex;
+}
+
+.loading-img {
+        width: 30%;
+        display: flex;
+}
+
+.loading-img img {
+        width: 550px;
+        height: 350px;
+        border-radius: 20px;
+        display: flex;
+}
+
+.loading-btn {
+        width: 20%;
+        size: 38px;
+        padding-right: 110px;
+        display: flex;
+}
+
+.loading-btn button {
+        color: white;
+        background: #2BB5CA;
+        font-family: Segoe UI;
+        font-size: 34px;
+        border-radius: 15px;
+        width: 25vw;
+        height: 10vh;
+        text-transform: uppercase;
+        padding: 5px 10px;
+        margin-top: 480px;
+        margin-left: 5px;
+}
+
+.box {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+
+.loading {
+        border: 1px solid #2bb5ca80;
+        display: flex;
+        border-radius: 20px;
+        margin-left: 150px;
+}
+
+.loading-left {
+        width: 50%;
+        padding: 10px 15px;
+        background-color: #2bb5ca56;
+        text-transform: uppercase;
+        font-family: Segoe UI;
+        font-size: 28px;
+        border-radius: 20px;
+        display: flex;
+}
+
+.loading-left:hover {
+        background: #18677456;
+}
+
+.loading-right {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 5px 10px;
+        font-family: Segoe UI;
+        font-size: 28px;
+}
+
+.loader h1 {
+        padding: 20px;
+        font-family: Segoe UI;
+        font-size: 72px;
+        margin-left: 120px;
+        display: flex;
+}
+
+.loader p {
+        margin-top: 50px;
+        margin-right: 20px;
+        padding-right: 120px;
+        font-family: Segoe UI;
+        font-size: 32px;
+        display: flex;
+}
+
+.loading-btn button:hover {
+        background: #104249;
+}
