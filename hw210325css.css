@@ -1,0 +1,39 @@
+*{
+        background: #10423D;
+        margin: 40px;
+        padding: 0;
+        font-family: Segoe UI;
+}
+
+.switching {
+        color: #818E9C;
+        font-size: 16px;
+}
+
+.header {
+        color: #D1D6DB;
+        font-size: 38px;
+        text-align: left;
+}
+
+.info img {
+        width: 8%;
+}
+
+.info h2 {
+        font-size: 18px;
+        color: #d1d6dbcc;
+}
+
+.info p {
+        font-size: 24px;
+        color: #D1D6DB;
+        white-space: nowrap;
+}
+
+.info {
+        gap: 1px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
