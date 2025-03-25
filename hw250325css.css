@@ -1,0 +1,192 @@
+*{
+        background: #B8B8B8;
+        margin: 0; 
+        padding: 0;
+        font-family: Segoe UI;
+}
+
+.first-paragraph h1{
+        font-size: 50px;
+        font-weight: bold;
+        margin-left: 60px;
+        padding-bottom: 60px;
+        padding-top: 10px;
+}
+
+.first-paragraph .first {
+        font-size: 26px;
+        padding-bottom: 60px;
+        margin-left: 40px;
+        font-weight: bolder;
+}
+
+.first span {
+        color: #04388B;
+}
+
+.first span:hover {
+        color: #02183B;
+}
+
+.first-pic img {
+        width: 50vw;
+        height: 50vh;
+        border-radius: 20px 20px 0 0;
+        margin-left: 400px;
+}
+
+.first-pic p {
+        background: #02183B;
+        color: #DFF8EB;
+        font-size: 32px;
+        margin-left: 400px;
+        width: 50vw;
+        height: 5vh;
+        text-align: center;
+        border-radius: 0 0 20px 20px;
+}
+
+.second-paragraph .second {
+        font-size: 26px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+        margin-left: 40px;
+        font-weight: bolder;
+}
+
+.second span {
+        color: #04388B;
+}
+
+.second span:hover {
+        color: #02183B;
+}
+
+.second-pic img {
+        width: 50vw;
+        height: 50vh;
+        border-radius: 20px 20px 0 0;
+        margin-left: 400px;
+}
+
+.second-pic .second-desc {
+        background: #02183B;
+        color: #DFF8EB;
+        font-size: 32px;
+        margin-left: 400px;
+        width: 50vw;
+        height: 10vh;
+        text-align: center;
+        border-radius: 0 0 20px 20px;
+}
+
+.third-paragraph .third {
+        font-size: 26px;
+        padding-top: 60px;
+        padding-bottom: 80px;
+        margin-left: 40px;
+        font-weight: bolder;
+}
+
+@media screen and (max-width: 800px) {
+        *{
+                justify-content: center;
+        }
+
+        .first-paragraph h1 {
+                margin-left: 5px;
+        }
+
+        .first-paragraph .first {
+                margin-left: 8px;
+                font-size: 26px;
+                font-weight: bolder;
+        }
+
+        .first-pic img {
+                margin-left: 15px;
+                width: 90vw;
+                height: 30vh;
+        }
+
+        .first-pic .first-desc {
+                font-size: 24px;
+                margin-left: 15px;
+                width: 90vw;
+                height: 4vh;
+                text-align: center;
+        }
+
+        .second-paragraph .second {
+                margin-left: 8px;
+                font-size: 26px;
+                font-weight: bolder;
+        }
+
+        .second-pic img {
+                margin-left: 15px;
+                width: 90vw;
+                height: 30vh;
+        }
+
+        .second-pic .second-desc {
+                font-size: 24px;
+                margin-left: 15px;
+                width: 90vw;
+                height: 12vh;
+                text-align: center;
+        }
+
+        .third-paragraph .third {
+                margin-left: 8px;
+                font-size: 26px;
+                font-weight: bolder;
+        }
+}
+
+
+@media screen and (max-width: 1200px) {
+        .first-pic img {
+                margin-left: 80px;
+                width: 80vw;
+                height: 40vh;
+        }
+
+        .first-pic .first-desc {
+                font-size: 32px;
+                margin-left: 80px;
+                width: 80vw;
+                height: 4vh;
+                text-align: center;
+        }
+
+        .second-pic img {
+                margin-left: 80px;
+                width: 80vw;
+                height: 40vh;
+        }
+
+        .second-pic .second-desc {
+                font-size: 32px;
+                margin-left: 80px;
+                width: 80vw;
+                height: 8vh;
+                text-align: center;
+        }
+
+        .first-paragraph h1 {
+                font-size: 68px;
+        }
+
+        .first-paragraph .first {
+                font-size: 36px;
+        }
+
+        .second-paragraph .second {
+                font-size: 36px;
+        }
+
+        .third-paragraph .third {
+                font-size: 36px;
+        }
+}
